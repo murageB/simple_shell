@@ -1,5 +1,5 @@
-#ifndef MURAGE_SHELL_H
-#define MURAGE_SHELL_H
+#ifndef SHELL_H
+#define SHELL_H
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -7,7 +7,7 @@
 #include <unistd.h>
 #include <string.h>
 
-void type_prompt();
+void type_prompt(void);
 void read_command(char cmd[], char *par[]);
 
 
